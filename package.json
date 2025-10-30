@@ -1,0 +1,19 @@
+{
+  "name": "bscalper-bot",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "yaml": "^2.5.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.3"
+  }
+}

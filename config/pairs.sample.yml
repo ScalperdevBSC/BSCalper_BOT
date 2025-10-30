@@ -1,0 +1,3 @@
+pairs:
+  - { base: USDC, quote: SCALP }
+  - { base: BNB,  quote: SCALP }

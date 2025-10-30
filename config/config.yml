@@ -1,0 +1,25 @@
+chains: [bsc, base]
+execution:
+  enabled: false
+  minSpreadBps: 25
+  maxSlippageBps: 30
+  gasBufferUsd: 2.50
+  notionalCapUsd: 2500
+vault:
+  baseTokens: [BNB, USD1, USDC, USDT]
+  split:
+    buybackPercent: 50
+    directPercent: 50
+  buyback:
+    token: SCALP
+    route: "best"
+adapters:
+  dex:
+    jupiter: { enabled: true }
+    oneInch: { enabled: true }
+    pancakeswap: { enabled: true }
+    raydium: { enabled: false }
+  cex:
+    binance: { enabled: true }
+    mexc: { enabled: false }
+    gateio: { enabled: false }
